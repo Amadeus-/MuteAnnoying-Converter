@@ -1,0 +1,7 @@
+## Interface: 80200
+## Version: 1.0.0
+## Title: MuteAnnoying
+## Notes: Mutes Annoying Sounds
+## Author: Ketho @ EU-Boulderfist
+
+MuteAnnoying.lua
