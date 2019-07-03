@@ -2,7 +2,7 @@
 * See [MuteAnnoying](https://github.com/ketho-wow/MuteAnnoying) for the WoW addon.
 
 #### Getting FileDataIDs from your Sound\ folder (Windows)
-1. `muteannoyingwowsounds.lua`: Run the [PowerShell script](https://github.com/ketho-wow/MuteAnnoying-Converter/blob/master/src/muteannoyingwowsounds.ps1) in your **Sound**\ folder.
+1. `muteannoyingwowsounds.lua`: Run the [PowerShell script](https://github.com/ketho-wow/MuteAnnoying-Converter/blob/master/src/muteannoyingwowsounds.ps1) from 1 level above your **Sound**\ folder.
     * Turn the results into a Lua table.  
       `(.*)` → `\t"$1",`
 
