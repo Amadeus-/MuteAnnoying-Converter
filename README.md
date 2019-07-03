@@ -8,7 +8,7 @@
 
 2. (optional) `listfile.lua`: Download the [listfile](https://wow.tools/files/) from wow.tools.
     * Filter it to .ogg sounds only and turn it into a Lua table.  
-      `^(?!.*\.ogg*).+$\n` → (empty) [*stackoverflow*](https://stackoverflow.com/questions/7024214/how-to-use-a-regular-expression-to-remove-lines-without-a-word)  
+      `^(?!.*\.ogg.*).+$\n` → (empty) [*stackoverflow*](https://stackoverflow.com/questions/7024214/how-to-use-a-regular-expression-to-remove-lines-without-a-word)  
       `.*\.meta\n` → (empty)
 
 3. Run `main.lua` ([Lua 5.2+](http://luabinaries.sourceforge.net/download.html))
