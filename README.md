@@ -4,7 +4,8 @@
 #### Getting FileDataIDs from your Sound\ folder (Windows)
 1. `muteannoyingwowsounds.lua`: Run the [PowerShell script](https://github.com/ketho-wow/MuteAnnoying-Converter/blob/master/src/muteannoyingwowsounds.ps1) from 1 level above your **Sound**\ folder.
     * Turn the results into a Lua table.  
-      `(.*)` → `\t"$1",`
+      `(.*)` → `\t"$1",`  
+      Replace `\` backslashes with `/` forward slashes (so that it matches the listfile).
 
 2. (optional) `listfile.lua`: Download the [listfile](https://wow.tools/files/) from wow.tools.
     * Filter it to .ogg sounds only and turn it into a Lua table.  
